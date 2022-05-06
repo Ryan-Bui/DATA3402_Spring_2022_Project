@@ -23,6 +23,7 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
     *  Input: images of flowers ranging from (192x192 pixel jpegs) to (512x512 pixel jpegs) each stored in TFRecord format
   * Size: The size of the data is 5.15GB
   * Instances (Train, Test, Validation Split): 2753 training images, 7382 for testing, 3712 for validation
+  * Note: The data is not here is this repo because it would've taken to long to upload it. When you are using the kaggle notebooks you dont actually need to download the dataset onto your computer anyway.
 
 #### Data Visualization
 
