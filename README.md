@@ -45,12 +45,12 @@ Show a few visualization of the data and say a few words about what you see.
   * How you trained: I used keras and tensorflow running on the computers provided by Kaggle as well as using Kaggle's TPUs
   * How long did the training take?: Training took anywhere from 1min 2s to 1min 21s and the different models didn't really differ too in terms of how long it took to train however what did change the time it took to train was adding in a Learning Rate Scheduler. 
   * Training curves:
+  
   * How did you decide to stop training: I had 12 epochs and I let it train for all of the 12 epochs. 
-  * Any difficulties? How did you resolve them?
 
 ### Performance Comparison
 
-* From the Kaggle challenge we are evaluated based off of the  F1 score which is calculated using precision and recall. 
+* From the Kaggle challenge we are evaluated based off of the F1 score which is calculated using precision and recall. 
 * Show/compare results in one table.
 * Show one (or few) visualization(s) of results, for example ROC curves.
 
@@ -67,11 +67,7 @@ Show a few visualization of the data and say a few words about what you see.
 
 ## How to reproduce results
 
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+In order to reproduce these results you will need to use Kaggle’s own notebooks since this is the only way to get access to their TPUs. and you will need to use the 3 models that I mentioned earlier(VGG16, ResNet, Xception) and make sure they are pre-trained on imagenet. Be sure to only use 20 epochs for the neural network. Most of the code used is provided by the Kaggle challenge itself and you can use this to use the TPU in a correct way. You can also look up the keras documentation to use the different models if you don’t already know it. 
 
 ### Overview of files in repository
 
