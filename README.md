@@ -11,8 +11,7 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
 
 
 
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
-
+  * **Summary of the performance achieved**  My best model was able to get a F1 score of 0.76318 while at the time of writing the best entry has an F1 score of 0.98242
 ## Summary of Workdone
 
 
@@ -79,7 +78,7 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
 
 ## How to reproduce results
 
-In order to reproduce these results you will need to use Kaggle’s own notebooks since this is the only way to get access to their TPUs. and you will need to use the 3 models that I mentioned earlier(VGG16, ResNet, Xception) and make sure they are pre-trained on imagenet. Be sure to only use 15 epochs for the neural network. Most of the code used is provided by the Kaggle challenge itself and you can use this to use the TPU in a correct way. You can also look up the keras documentation to use the different models if you don’t already know it. Another thing to note is the use of the %%time command in order to find out how long it took each model to train.
+In order to reproduce these results you will need to use Kaggle’s own notebooks since this is the only way to get access to their TPUs. and you will need to use the 3 models that I mentioned earlier(VGG16, ResNet, Xception) and make sure they are pre-trained on imagenet. Be sure to only use 20 epochs for the neural network. Most of the code used is provided by the Kaggle challenge itself and you can use this to use the TPU in a correct way. You can also look up the keras documentation to use the different models if you don’t already know it. Another thing to note is the use of the %%time command in order to find out how long it took each model to train.
 
 ### Overview of files in repository
 
