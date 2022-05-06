@@ -11,7 +11,7 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
 
 
 
-  * **Summary of the performance achieved**  My best model was able to get a F1 score of 0.76318 while at the time of writing the best entry has an F1 score of 0.98242
+  * **Summary of the performance achieved**:  My best model was able to get a F1 score of 0.76318 while at the time of writing the best entry has an F1 score of 0.98242
 ## Summary of Workdone
 
 
