@@ -46,7 +46,10 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
   * How you trained: I used keras and tensorflow running on the computers provided by Kaggle as well as using Kaggle's TPUs
   * How long did the training take?: Training took anywhere from 1min 2s to 1min 21s and the different models didn't really differ too in terms of how long it took to train however what did change the time it took to train was adding in a Learning Rate Scheduler. 
   * Here are some of the Training Curves you can see the rest in the notebook:
+  * The first pair is the VGG16 model using an expoential decay LRS and the second pair is Xception using a step decay LRS.
   ![](exp_VGG16_training_graph.PNG)
+  
+  
   ![](step_Xception_training_graph.PNG)
   
   * How did you decide to stop training: I had 12 epochs and I let it train for all of the 12 epochs. 
