@@ -1,6 +1,6 @@
 ![](UTA-DataScience-Logo.png)
 
-# Project Title
+# Petals to the Metal Kaggle Challenge
 
 This repository holds an attempt to use TPU's to speed up the training of deep learning models on images of flowers and classifying them as the correct type from the "Petals to the Metal" Kaggle challenge (https://www.kaggle.com/competitions/tpu-getting-started/overview)
 
@@ -26,7 +26,8 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
 
 #### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
+![](labeled_flowers.PNG)
+![](validation_flowers.PNG)
 
 ### Problem Formulation
 
