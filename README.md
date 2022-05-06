@@ -67,7 +67,7 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
 
 ### Conclusions
 
-* It seems that Xception had the better F1 scores regardless of the different LRSs we used; however we did see that using a step decay LRS significantly improved the training F1 score for the VGG16 model. We also can conclude that while using TPUs the time to train the 3 different models was not so different with really only 1-3 seconds difference between them. We also saw that implementing a LRS did help with the training time for all models. 
+* It seems that Xception had the better F1 scores regardless of the different LRSs we used; however we did see that using a step decay LRS significantly improved the training F1 score for the VGG16 model. We also can conclude that while using TPUs the time to train the 3 different models was different with VGG16 being the slowest of the 3 while pretty accurate and ResNet being the fastest however not very accurate for this dataset. We also saw that implementing a LRS did help with the training time for all models. 
 
 
 ### Future Work
@@ -78,7 +78,7 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
 
 ## How to reproduce results
 
-In order to reproduce these results you will need to use Kaggle’s own notebooks since this is the only way to get access to their TPUs. and you will need to use the 3 models that I mentioned earlier(VGG16, ResNet, Xception) and make sure they are pre-trained on imagenet. Be sure to only use 20 epochs for the neural network. Most of the code used is provided by the Kaggle challenge itself and you can use this to use the TPU in a correct way. You can also look up the keras documentation to use the different models if you don’t already know it. 
+In order to reproduce these results you will need to use Kaggle’s own notebooks since this is the only way to get access to their TPUs. and you will need to use the 3 models that I mentioned earlier(VGG16, ResNet, Xception) and make sure they are pre-trained on imagenet. Be sure to only use 20 epochs for the neural network. Most of the code used is provided by the Kaggle challenge itself and you can use this to use the TPU in a correct way. You can also look up the keras documentation to use the different models if you don’t already know it. Another thing to note is the use of the %%time command in order to find out how long it took each model to train.
 
 ### Overview of files in repository
 
