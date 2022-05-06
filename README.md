@@ -57,8 +57,13 @@ The task, as defined by the Kaggle challenge is “to build a machine learning m
 ### Performance Comparison
 
 * From the Kaggle challenge we are evaluated based off of the F1 score which is calculated using precision and recall. 
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
+* Show/compare results in one table:
+  ![](table.PNG)
+  
+* To visualize our results we used a confusion matrix:
+  ![](confusion_mtx_Xception.PNG)
+* Note: This is only of the matrices you can find the rest of them inside of the notebook
+* The above confusion matrix is from using Xception with a exponential decay LRS.
 
 ### Conclusions
 
