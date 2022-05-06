@@ -9,6 +9,7 @@ This repository holds an attempt to use TPU's to speed up the training of deep l
 
 The task, as defined by the Kaggle challenge is “to build a machine learning model that identifies the type of flowers in a dataset of images (for simplicity, we’re sticking to just over 100 types).” The approach in this repository formulates the problem as a classification task, using different models which are pre-trained on imagenet. We are also using TPUs  in order to speed up the process of fitting our models. We will also be observing the time it takes to fit our models to our training dataset as well as observing the effects of a Learning Rate Scheduler.
 
+Note: While the notebook is in here you wont be able to see any of the cells run since most of it is required to be on a Kaggle notebook so here is the link to my kaggle notebook to see the full code and all the cells run: (https://www.kaggle.com/code/ryanlbui/final-exam-2)
 
 
   * **Summary of the performance achieved**:  My best model was able to get a F1 score of 0.76318 while at the time of writing the best entry has an F1 score of 0.98242
